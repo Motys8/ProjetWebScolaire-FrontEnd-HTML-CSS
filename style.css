@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-height: 800px;
+    font-family: "Cormorant", "sans-serif";
+}
+
+body{
+    overflow-y: hidden;
+}
+
+h1 {
+    color: white;
+    width: 50px;
+    font-size: 40px;
+    font-family: "Bebas Neue", "sans-serif";
+    letter-spacing: 2px;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    padding: 10px 40px 0px 40px;
+    z-index: 1;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 70px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.home{
+    display: grid;
+    grid-auto-flow: column;
+    height: 100vw;
+}
+
+.section{
+    width: 100vw;
+    height: 100%;
+}
+
+#section-1{
+    background-color: black;
+    z-index: -999;
+}
+
+#background{
+    min-height: 100%;
+    position: fixed;
+    top:0;
+    z-index: -100;
+}
+
+.slogan{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color: white;
+    font-size: 35px;
+}
+
+#section-2{
+    background-color: black;
+}
+
+.content-1{
+    width: 1300px;
+    height: 600px;
+    margin: 150px auto;
+    display: flex   ;
+}
+
+.image-1{
+    width: 65%;
+}
+
+.description-1{
+    width: 35%;
+    padding-left: 30px;
+}
+
+#video-2{
+    width: 100%;
+}
+
+h3{
+    color: white;
+}
+
+h4{
+    color: white;
+    font-size: 60px;
+}
+
+p1{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.texte-1{
+    margin-top: 50px;
+}
+
+.bouton-1{
+    margin-top: 20px;
+}
+
+.bouton-1 a{
+    color: white;
+}
+
+#section-3{
+    background-color: black;
+}
+
+#section-4{
+    background-color: black;
+}
+
+.footer {
+    position: fixed;
+    color: #fff;
+    font-family: "Cormorant", "sans-serif";
+    display: flex;
+    width: 100%;
+    height: 25px;
+    bottom: 0;
+    z-index: 1;
+    padding: 0px 10px 10px 10px;
+}
+
+
+.newsletter {
+    bottom: 0;
+    height: 5px;
+    padding-left: 10px;
+}
+
+.newsletter p {
+    font-size: 1.2rem;
+}
+
+.newsletter-form {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 25px;
+}
+
+.newsletter-form input[type="email"] {
+    background-color: #000;
+    padding: 10px;
+    font-size: 1rem;
+    width: 250px;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.newsletter-form button {
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    height: 25px;
+}
+
+.newsletter-form button:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+.social-icons{
+    margin-left: 290px;
+}
+
+.social-icons a img {
+    margin: 0 10px;
+    height: 20px;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1);
+}
+
+.copyright {
+    margin-left: 400px;
+    font-size: 15px;
+}
