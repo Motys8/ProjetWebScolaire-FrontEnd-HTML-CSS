@@ -130,7 +130,7 @@ p1{
 
 .footer {
     position: fixed;
-    color: #000000;
+    color: black;
     font-family: "Cormorant", "sans-serif";
     display: flex;
     width: 100%;
@@ -200,6 +200,7 @@ p1{
     font-size: 15px;
 
 }
+
 
 
 
