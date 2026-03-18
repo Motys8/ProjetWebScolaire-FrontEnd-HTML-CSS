@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  max-height: 800px;
+  max-height: 100%;
   font-family: "Cormorant", "sans-serif";
 }
 
@@ -51,6 +51,7 @@ nav a {
 #section-1 {
   background-color: black;
   z-index: -999;
+  min-height: 100%;
 }
 
 #background {
@@ -63,7 +64,7 @@ nav a {
 .slogan {
   position: absolute;
   top: 60%;
-  left: 10%;
+  left: 13%;
   color: white;
   font-size: 35px;
 }
@@ -129,7 +130,7 @@ p1 {
 
 .footer {
   position: fixed;
-  color: black;
+  background-color: transparent;
   font-family: "Cormorant", "sans-serif";
   display: flex;
   width: 100%;
@@ -194,6 +195,8 @@ p1 {
 }
 
 .copyright {
-  margin-left: 400px;
+  margin-top: 10px;
+  margin-left: 700px;
   font-size: 15px;
+  color: white;
 }
