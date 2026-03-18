@@ -8,3 +8,4 @@ ______________________________________________________________________________
  - la conception globale du design du site (choix graphiques et structure)
  - l’intégration complète de la page d’accueil
  - le lien et l’intégration des pages développées par les autres membres du groupe
+ - Sans commit car sans utilisation de github pendant le projet
